@@ -1,0 +1,178 @@
+{
+  "Module 4": {
+    "name": "Transformations",
+    "topics": [
+      {
+        "id": "T39",
+        "name": "Laplace Transformations",
+        "grade": 12,
+        "subtopics": [
+          {
+            "name": "Definition"
+          },
+          {
+            "name": "Properties"
+          },
+          {
+            "name": "Inverse Laplace Transform"
+          },
+          {
+            "name": "Common Laplace Transforms",
+            "subtopics": [
+              "Laplace Transform of e^t",
+              "Laplace Transform of sin t",
+              "Laplace Transform of cos t"
+            ]
+          },
+          {
+            "name": "Applications",
+            "subtopics": [
+              "Solving Ordinary Differential Equations (ODEs)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "T40",
+        "name": "Z-Transforms",
+        "grade": 12,
+        "subtopics": [
+          {
+            "name": "Definition"
+          },
+          {
+            "name": "Properties"
+          },
+          {
+            "name": "Inverse Z-Transform"
+          },
+          {
+            "name": "Region of Convergence"
+          },
+          {
+            "name": "Applications",
+            "subtopics": [
+              "Discrete Systems"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "T41",
+        "name": "Fourier Series",
+        "grade": 12,
+        "subtopics": [
+          {
+            "name": "Definition"
+          },
+          {
+            "name": "Types",
+            "subtopics": [
+              "Sine Fourier Series",
+              "Cosine Fourier Series"
+            ]
+          },
+          {
+            "name": "Convergence Criteria"
+          },
+          {
+            "name": "Applications",
+            "subtopics": [
+              "Signal Processing"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "T42",
+        "name": "Fourier Transforms",
+        "grade": 12,
+        "subtopics": [
+          {
+            "name": "Definition"
+          },
+          {
+            "name": "Properties"
+          },
+          {
+            "name": "Continuous vs Discrete Fourier Transforms"
+          },
+          {
+            "name": "Applications",
+            "subtopics": [
+              "Signal Analysis"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "T43",
+        "name": "Numerical Methods",
+        "grade": 12,
+        "subtopics": [
+          {
+            "name": "Root Finding",
+            "subtopics": [
+              "Newton-Raphson Method"
+            ]
+          },
+          {
+            "name": "Numerical Integration",
+            "subtopics": [
+              "Trapezoidal Rule",
+              "Simpson’s Rule"
+            ]
+          },
+          {
+            "name": "Numerical Differentiation"
+          },
+          {
+            "name": "Solving Systems of Linear Equations"
+          }
+        ]
+      },
+      {
+        "id": "T44",
+        "name": "Wave Equations",
+        "grade": 12,
+        "subtopics": [
+          {
+            "name": "1D Wave Equation"
+          },
+          {
+            "name": "Solution to Wave Equation",
+            "subtopics": [
+              "Method of Separation of Variables"
+            ]
+          },
+          {
+            "name": "Applications",
+            "subtopics": [
+              "Sound Waves",
+              "Vibration Analysis"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "T45",
+        "name": "Numerical Integration Methods",
+        "grade": 12,
+        "subtopics": [
+          {
+            "name": "Trapezoidal Rule"
+          },
+          {
+            "name": "Simpson’s Rule"
+          },
+          {
+            "name": "Numerical Integration of ODEs",
+            "subtopics": [
+              "Runge-Kutta Method"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

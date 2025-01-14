@@ -1,0 +1,125 @@
+
+<!-- saved from url=(0012)about:srcdoc -->
+<html class="light text-[16px]"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@400" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com/"></script>
+    <script>
+        window.FontAwesomeConfig = {
+            autoReplaceSvg: 'nest', // Options: 'nest', 'remove', 'replace'
+        };
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <style>
+        * {
+            font-family: "Inter", sans-serif;
+        }
+        ::-webkit-scrollbar {
+          display: none;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                      primary: {
+                        50: "#ecfeff",
+                        100: "#cffafe",
+                        200: "#a5f3fc",
+                        300: "#67e8f9",
+                        400: "#22d3ee",
+                        500: "#06b6d4",
+                        600: "#0891b2",
+                        700: "#0e7490",
+                        800: "#155e75",
+                        900: "#164e63",
+                        950: "#083344",
+                      },
+                    },
+                },
+                borderRadius: {
+                  sm: "0.25rem",
+                  DEFAULT: "0.5rem",
+                  md: "0.75rem",
+                  lg: "1rem",
+                  xl: "1.5rem",
+                  '2xl': "2rem",
+                  '3xl': "3rem",
+                  full: "9999rem",
+                },
+            },
+            darkMode: "class",
+        };
+    </script>
+</head>
+
+<body class="bg-gray-50 dark:bg-gray-900 overflow-x-hidden">
+<div class="antialiased bg-gray-50 dark:bg-gray-900"><main class="max-w-screen-xl p-4 mx-auto h-auto pt-20 space-y-8">
+  <section class="bg-gray-50 dark:bg-gray-900">
+      <div class="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
+          <a class="flex items-center mb-6 text-2xl font-semibold text-gray-900 dark:text-white cursor-pointer">
+              LearnZY   
+          </a>
+          <div class="w-full bg-white rounded-lg shadow dark:border md:mt-0 sm:max-w-md xl:p-0 dark:bg-gray-800 dark:border-gray-700">
+              <div class="p-6 space-y-4 md:space-y-6 sm:p-8">
+                  <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
+                      Create and account
+                  </h1>
+                  <form class="space-y-4 md:space-y-6" action="/signup" method="post">
+                    <div>
+                        <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your Name</label>
+                        <input type="text" name="name" id="name" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Zainab Shaikh" required="">
+                    </div>
+                    <div>
+                        <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your email</label>
+                        <input type="email" name="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="name@company.com" required="">
+                    </div>
+                    <div>
+                        <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Password</label>
+                        <input type="password" name="password" id="password" placeholder="••••••••" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" required="">
+                    </div>
+                    <div>
+                        <label for="confirm-password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Confirm password</label>
+                        <input type="password" name="confirm-password" id="confirm-password" placeholder="••••••••" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" required="">
+                    </div>
+                    
+                    <!-- Dropdown for Standards -->
+                    <div>
+                        <label for="standards" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Select Standard</label>
+                        <select id="standards" name="standards" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" required>
+                            <option value="" disabled selected>Select your standard</option>
+                            <option value="standard-1">class 1</option>
+                            <option value="standard-2">class 2</option>
+                            <option value="standard-3">class 3</option>
+                            <option value="standard-4">class 4</option>
+                            <option value="standard-5">class 5</option>
+                            <!-- Add more options as needed -->
+                        </select>
+                    </div>
+                
+                    <!-- Input for Previous Year Percentage -->
+                    <div>
+                        <label for="previous-percentage" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Previous Year Percentage</label>
+                        <input type="number" name="previous-percentage" id="previous-percentage" placeholder="Enter your percentage" 
+                               class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" 
+                               required="" min="0" max="100">
+                    </div>
+                
+                    <div class="flex items-start">
+                        <div class="flex items-center h-5">
+                            <input id="terms" aria-describedby="terms" type="checkbox" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-primary-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-primary-600 dark:ring-offset-gray-800" required="">
+                        </div>
+                        <div class="ml-3 text-sm">
+                            <label for="terms" class="font-light text-gray-500 dark:text-gray-300">I accept the <a class="font-medium cursor-pointer text-primary-600 hover: underline dark:text-primary-500" href="#">Terms and Conditions</a></label>
+                        </div>
+                    </div>
+                
+                    <button type="submit" class="w-full text-white bg-primary-600 hover:bg-primary-700 focus:ring-4 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Submit</button>
+                </form>
+              </div>
+          </div>
+      </div>
+  </section>
+</main></div></body></html>

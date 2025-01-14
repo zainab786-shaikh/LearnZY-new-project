@@ -1,0 +1,1187 @@
+{
+  "Module 1": {
+    "name": "Basics and Algebra",
+    "topics": [
+      {
+        "id": "T1",
+        "name": "Real Numbers",
+        "subtopics": [
+          {
+            "name": "Properties of Real Numbers",
+            "subtopics": [
+              {
+                "name": "Closure Property",
+                "subtopics": [
+                  "Addition",
+                  "Multiplication",
+                  "Subtraction",
+                  "Division (except by zero)"
+                ]
+              },
+              {
+                "name": "Associative Property",
+                "subtopics": [
+                  "Addition",
+                  "Multiplication",
+                  "Subtraction",
+                  "Division"
+                ]
+              },
+              {
+                "name": "Commutative Property",
+                "subtopics": [
+                  "Addition",
+                  "Multiplication",
+                  "Subtraction",
+                  "Division"
+                ]
+              },
+              {
+                "name": "Distributive Property",
+                "subtopics": [
+                  "Distributive over Addition",
+                  "Distributive over Subtraction",
+                  "Distributive over Multiplication"
+                ]
+              },
+              {
+                "name": "Identity Elements",
+                "subtopics": [
+                  "Additive Identity",
+                  "Multiplicative Identity"
+                ]
+              },
+              {
+                "name": "Inverse Elements",
+                "subtopics": [
+                  "Additive Inverse",
+                  "Multiplicative Inverse"
+                ]
+              }
+            ]
+          },
+          {
+            "name": "Classification of Real Numbers",
+            "subtopics": [
+              "Natural Numbers (ℕ)",
+              "Whole Numbers (ℕ₀)",
+              "Integers (ℤ)",
+              "Rational Numbers (ℚ)",
+              "Irrational Numbers (ℝ \\ ℚ)",
+              "Real Numbers (ℝ)",
+              "Algebraic Numbers",
+              "Transcendental Numbers"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "T2",
+        "name": "Complex Numbers",
+        "subtopics": [
+          {
+            "name": "Rectangular Form (a + bi)",
+            "subtopics": [
+              "Representation of Real and Imaginary Parts",
+              "Plotting on the Complex Plane"
+            ]
+          },
+          {
+            "name": "Polar Form (r, θ)",
+            "subtopics": [
+              "Conversion from Rectangular to Polar",
+              "Modulus (r)",
+              "Argument (θ)"
+            ]
+          },
+          {
+            "name": "Exponential Form (e^(iθ))",
+            "subtopics": [
+              "Euler's Formula",
+              "Conversion from Polar to Exponential"
+            ]
+          },
+          {
+            "name": "Argand Diagram",
+            "subtopics": [
+              "Plotting Complex Numbers",
+              "Geometrical Interpretation"
+            ]
+          },
+          {
+            "name": "De Moivre's Theorem",
+            "subtopics": [
+              "Using De Moivre's Theorem for Powers of Complex Numbers",
+              "Using De Moivre's Theorem for Roots of Complex Numbers"
+            ]
+          },
+          {
+            "name": "Operations on Complex Numbers",
+            "subtopics": [
+              {
+                "name": "Addition/Subtraction of Complex Numbers",
+                "subtopics": [
+                  "Addition in Rectangular Form",
+                  "Subtraction in Rectangular Form",
+                  "Addition and Subtraction in Polar Form"
+                ]
+              },
+              {
+                "name": "Multiplication of Complex Numbers",
+                "subtopics": [
+                  "Multiplication in Rectangular Form",
+                  "Multiplication in Polar Form"
+                ]
+              },
+              {
+                "name": "Division of Complex Numbers",
+                "subtopics": [
+                  "Division in Rectangular Form",
+                  "Division in Polar Form"
+                ]
+              },
+              {
+                "name": "Modulus and Argument",
+                "subtopics": [
+                  "Finding Modulus of a Complex Number",
+                  "Finding Argument of a Complex Number"
+                ]
+              },
+              {
+                "name": "Conjugate of Complex Numbers",
+                "subtopics": [
+                  "Definition and Properties",
+                  "Application in Division"
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "T3",
+        "name": "Fundamental Theorem of Algebra",
+        "subtopics": [
+          {
+            "name": "Roots of Polynomial Equations",
+            "subtopics": [
+              "Existence of Roots in the Complex Plane",
+              "Multiplicity of Roots"
+            ]
+          },
+          {
+            "name": "Degree of Polynomial and Number of Roots",
+            "subtopics": [
+              "Degree of Polynomial",
+              "Fundamental Theorem for Degree n"
+            ]
+          },
+          {
+            "name": "Finding Complex Roots of Polynomials",
+            "subtopics": [
+              "Trial and Error Method",
+              "Synthetic Division",
+              "Quadratic Formula"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "T4",
+        "name": "Linear Simultaneous Equations",
+        "subtopics": [
+          {
+            "name": "Graphical Method",
+            "subtopics": [
+              "Plotting Equations",
+              "Intersection Points",
+              "Special Cases (No Solution, Infinite Solutions)"
+            ]
+          },
+          {
+            "name": "Substitution Method",
+            "subtopics": [
+              "Solving for One Variable",
+              "Substituting in Other Equations"
+            ]
+          },
+          {
+            "name": "Elimination Method",
+            "subtopics": [
+              "Eliminating Variables Using Addition/Subtraction",
+              "Handling Coefficients"
+            ]
+          },
+          {
+            "name": "Cross Elimination Method",
+            "subtopics": [
+              "Multiplying Equations to Eliminate Variables"
+            ]
+          },
+          {
+            "name": "Matrix Method",
+            "subtopics": [
+              "Setting Up the Augmented Matrix",
+              "Gaussian Elimination"
+            ]
+          },
+          {
+            "name": "Inverse Matrix Method",
+            "subtopics": [
+              "Finding the Inverse of a Matrix",
+              "Solving Systems Using Matrix Inverses"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "T5",
+        "name": "Quadratic Equations",
+        "subtopics": [
+          "Prime Factorization Method",
+          "Quadratic Formula",
+          {
+            "name": "Completing the Square",
+            "subtopics": [
+              "Isolating the Quadratic Term",
+              "Adding the Square of Half the Coefficient"
+            ]
+          },
+          "Discriminant and its Nature of Roots",
+          {
+            "name": "Graphical Representation of Quadratics",
+            "subtopics": [
+              "Vertex Form of a Quadratic",
+              "Graphing Parabolas"
+            ]
+          },
+          "Solving Equations with Complex Roots"
+        ]
+      },
+      {
+        "id": "T6",
+        "name": "Higher Degree Equations",
+        "subtopics": [
+          "Synthetic Division",
+          "Factor Theorem",
+          "Descartes' Rule of Signs",
+          {
+            "name": "Roots of Polynomials and Their Properties",
+            "subtopics": [
+              "Real and Complex Roots",
+              "Multiplicity of Roots"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "T7",
+        "name": "Set Theory",
+        "subtopics": [
+          {
+            "name": "Types of Sets",
+            "subtopics": [
+              "Finite Set",
+              "Infinite Set",
+              "Equal Set",
+              "Singleton Set",
+              "Null Set (Empty Set)",
+              "Universal Set"
+            ]
+          },
+          {
+            "name": "Set Operations",
+            "subtopics": [
+              "Union (A ∪ B)",
+              "Intersection (A ∩ B)",
+              "Difference (A - B)",
+              "Complement (A')",
+              "Symmetric Difference (A △ B)",
+              "Cartesian Product (A × B)"
+            ]
+          },
+          "Venn Diagrams",
+          "Inclusion-Exclusion Principle",
+          "Power Set",
+          {
+            "name": "Relations and Functions",
+            "subtopics": [
+              "Types of Relations",
+              "Reflexive, Symmetric, Transitive",
+              "Equivalence Relation",
+              "Function Definition",
+              "Domain, Range, Co-domain"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "T8",
+        "name": "Matrix Algebra",
+        "subtopics": [
+          {
+            "name": "Matrix Operations",
+            "subtopics": [
+              "Addition and Subtraction of Matrices",
+              "Scalar Multiplication",
+              "Matrix Multiplication",
+              "Matrix Transposition",
+              "Inverse of a Matrix"
+            ]
+          },
+          {
+            "name": "Determinants",
+            "subtopics": [
+              "Definition of Determinant",
+              "Properties of Determinants",
+              "Determinant of 2x2, 3x3 Matrices",
+              "Cofactor and Adjoint of a Matrix",
+              "Matrix Determinants and Cramer's Rule"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "T9",
+        "name": "Inequalities",
+        "subtopics": [
+          "Linear Inequalities",
+          "Quadratic Inequalities",
+          "System of Inequalities",
+          "Graphical Method for Solving Inequalities"
+        ]
+      },
+      {
+        "id": "T10",
+        "name": "Functions",
+        "subtopics": [
+          "Definition of Function",
+          {
+            "name": "Types of Functions",
+            "subtopics": [
+              "One-to-One Function (Injective)",
+              "Onto Function (Surjective)",
+              "Bijective Function (One-to-One and Onto)",
+              "Constant Function",
+              "Identity Function",
+              "Inverse Function"
+            ]
+          },
+          {
+            "name": "Operations on Functions",
+            "subtopics": [
+              "Composition of Functions (f ∘ g)",
+              "Inverse of a Function"
+            ]
+          },
+          {
+            "name": "Graph of a Function",
+            "subtopics": [
+              "Linear Functions",
+              "Quadratic Functions",
+              "Cubic Functions",
+              "Piecewise Functions"
+            ]
+          },
+          "Domain and Range of a Function"
+        ]
+      },
+      {
+        "id": "T11",
+        "name": "Polynomials",
+        "subtopics": [
+          "Definition of Polynomial",
+          "Degree of a Polynomial",
+          "Roots of Polynomials",
+          "Factor Theorem",
+          "Rational Root Theorem",
+          "Graph of Polynomial Functions",
+          "Fundamental Theorem of Algebra"
+        ]
+      }
+    ]
+  },
+  "Module 2": {
+    "name": "Pre-Calculus",
+    "topics": [
+      {
+        "id": "T12",
+        "name": "Arithmetic Progressions"
+      },
+      {
+        "id": "T13",
+        "name": "Geometric Progressions"
+      },
+      {
+        "id": "T14",
+        "name": "Logarithms",
+        "subtopics": [
+          {
+            "name": "Properties of Logarithms"
+          },
+          {
+            "name": "Change of Base Formula"
+          },
+          {
+            "name": "Applications of Logarithms",
+            "subtopics": [
+              "Logarithmic Scales",
+              "Decibel Scale"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "T15",
+        "name": "Coordinate Geometry - 2D",
+        "subtopics": [
+          {
+            "name": "Distance Formula"
+          },
+          {
+            "name": "Midpoint Formula"
+          },
+          {
+            "name": "Equation of a Line",
+            "subtopics": [
+              "Point-Slope Form",
+              "Slope-Intercept Form"
+            ]
+          },
+          {
+            "name": "Angle Between Two Lines"
+          },
+          {
+            "name": "Conic Sections",
+            "subtopics": [
+              "Parabolas",
+              "Ellipses",
+              "Hyperbolas"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "T16",
+        "name": "Statistics"
+      },
+      {
+        "id": "T17",
+        "name": "Central Tendency",
+        "subtopics": [
+          "Mean",
+          "Median",
+          "Mode"
+        ]
+      },
+      {
+        "id": "T18",
+        "name": "Correlation and Regression",
+        "subtopics": [
+          "Karl Pearson’s Coefficient"
+        ]
+      },
+      {
+        "id": "T19",
+        "name": "Permutations, Combinations, and Derangements"
+      },
+      {
+        "id": "T20",
+        "name": "Binomial Theorem"
+      },
+      {
+        "id": "T21",
+        "name": "3D Geometry"
+      },
+      {
+        "id": "T22",
+        "name": "Vectors"
+      },
+      {
+        "id": "T23",
+        "name": "Linear Programming"
+      },
+      {
+        "id": "T24",
+        "name": "Probability"
+      },
+      {
+        "id": "T25",
+        "name": "Trigonometry",
+        "subtopics": [
+          {
+            "name": "Trigonometric Ratios of Right-Angled Triangle"
+          },
+          {
+            "name": "Basic Trigonometric Values",
+            "subtopics": [
+              "0°",
+              "30°",
+              "45°",
+              "60°",
+              "90°"
+            ]
+          },
+          {
+            "name": "Unit Circle"
+          },
+          {
+            "name": "Graphs of Trigonometric Functions"
+          },
+          {
+            "name": "Inverse Trigonometry"
+          },
+          {
+            "name": "Trigonometric Identities",
+            "subtopics": [
+              "Pythagorean Identity",
+              "Angle Sum Identity",
+              "Double Angle Identity"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "T26",
+        "name": "Sequences and Series"
+      },
+      {
+        "id": "T27",
+        "name": "Binomial Expansion"
+      },
+      {
+        "id": "T28",
+        "name": "Conic Sections"
+      }
+    ]
+  },
+  "Module 3": {
+    "name": "Calculus",
+    "topics": [
+      {
+        "id": "T29",
+        "name": "Limits and Continuity"
+      },
+      {
+        "id": "T30",
+        "name": "Differentiation",
+        "subtopics": [
+          {
+            "name": "Product Rule"
+          },
+          {
+            "name": "Quotient Rule"
+          },
+          {
+            "name": "Chain Rule"
+          },
+          {
+            "name": "Implicit Differentiation"
+          },
+          {
+            "name": "Derivatives of Standard Functions",
+            "subtopics": [
+              "Power Rule",
+              "Sum and Difference Rule",
+              "Trigonometric Functions",
+              "Exponential Functions",
+              "Logarithmic Functions"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "T31",
+        "name": "Integration",
+        "subtopics": [
+          {
+            "name": "Indefinite Integrals",
+            "subtopics": [
+              "Basic Integration Rules",
+              "Integration of Power Functions",
+              "Integration of Exponentials",
+              "Integration of Trigonometric Functions",
+              "Integration of Logarithmic Functions"
+            ]
+          },
+          {
+            "name": "Definite Integrals",
+            "subtopics": [
+              "Properties of Definite Integrals",
+              "Fundamental Theorem of Calculus"
+            ]
+          },
+          {
+            "name": "Integration by Parts"
+          },
+          {
+            "name": "Substitution Rule"
+          },
+          {
+            "name": "Partial Fractions"
+          }
+        ]
+      },
+      {
+        "id": "T32",
+        "name": "Linear Differential Equations"
+      },
+      {
+        "id": "T33",
+        "name": "Higher Order Differential Equations"
+      },
+      {
+        "id": "T34",
+        "name": "Partial Differentiation",
+        "subtopics": [
+          {
+            "name": "Higher Order Partial Derivatives"
+          },
+          {
+            "name": "Gradient and Directional Derivatives"
+          }
+        ]
+      },
+      {
+        "id": "T35",
+        "name": "Leibniz nth Derivative Formula"
+      },
+      {
+        "id": "T36",
+        "name": "Applications of Derivatives"
+      },
+      {
+        "id": "T37",
+        "name": "Multiple Integrals"
+      },
+      {
+        "id": "T38",
+        "name": "Parametric Equations"
+      }
+    ]
+  },
+  "Module 4": {
+    "name": "Transformations",
+    "topics": [
+      {
+        "id": "T39",
+        "name": "Laplace Transformations",
+        "subtopics": [
+          {
+            "name": "Definition"
+          },
+          {
+            "name": "Properties"
+          },
+          {
+            "name": "Inverse Laplace Transform"
+          },
+          {
+            "name": "Common Laplace Transforms",
+            "subtopics": [
+              "Laplace Transform of e^t",
+              "Laplace Transform of sin t",
+              "Laplace Transform of cos t"
+            ]
+          },
+          {
+            "name": "Applications",
+            "subtopics": [
+              "Solving Ordinary Differential Equations (ODEs)"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "T40",
+        "name": "Z-Transforms",
+        "subtopics": [
+          {
+            "name": "Definition"
+          },
+          {
+            "name": "Properties"
+          },
+          {
+            "name": "Inverse Z-Transform"
+          },
+          {
+            "name": "Region of Convergence"
+          },
+          {
+            "name": "Applications",
+            "subtopics": [
+              "Discrete Systems"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "T41",
+        "name": "Fourier Series",
+        "subtopics": [
+          {
+            "name": "Definition"
+          },
+          {
+            "name": "Types",
+            "subtopics": [
+              "Sine Fourier Series",
+              "Cosine Fourier Series"
+            ]
+          },
+          {
+            "name": "Convergence Criteria"
+          },
+          {
+            "name": "Applications",
+            "subtopics": [
+              "Signal Processing"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "T42",
+        "name": "Fourier Transforms",
+        "subtopics": [
+          {
+            "name": "Definition"
+          },
+          {
+            "name": "Properties"
+          },
+          {
+            "name": "Continuous vs Discrete Fourier Transforms"
+          },
+          {
+            "name": "Applications",
+            "subtopics": [
+              "Signal Analysis"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "T43",
+        "name": "Numerical Methods",
+        "subtopics": [
+          {
+            "name": "Root Finding",
+            "subtopics": [
+              "Newton-Raphson Method"
+            ]
+          },
+          {
+            "name": "Numerical Integration",
+            "subtopics": [
+              "Trapezoidal Rule",
+              "Simpson’s Rule"
+            ]
+          },
+          {
+            "name": "Numerical Differentiation"
+          },
+          {
+            "name": "Solving Systems of Linear Equations"
+          }
+        ]
+      },
+      {
+        "id": "T44",
+        "name": "Wave Equations",
+        "subtopics": [
+          {
+            "name": "1D Wave Equation"
+          },
+          {
+            "name": "Solution to Wave Equation",
+            "subtopics": [
+              "Method of Separation of Variables"
+            ]
+          },
+          {
+            "name": "Applications",
+            "subtopics": [
+              "Sound Waves",
+              "Vibration Analysis"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "T45",
+        "name": "Numerical Integration Methods",
+        "subtopics": [
+          {
+            "name": "Trapezoidal Rule"
+          },
+          {
+            "name": "Simpson’s Rule"
+          },
+          {
+            "name": "Numerical Integration of ODEs",
+            "subtopics": [
+              "Runge-Kutta Method"
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "Module 5": {
+    "name": "Mathematical Logic",
+    "topics": [
+      {
+        "id": "T46",
+        "name": "Propositional Logic",
+        "subtopics": [
+          {
+            "name": "Propositions"
+          },
+          {
+            "name": "Logical Connectives",
+            "subtopics": [
+              "AND",
+              "OR",
+              "NOT",
+              "IMPLIES",
+              "IF and ONLY IF"
+            ]
+          },
+          {
+            "name": "Truth Tables"
+          },
+          {
+            "name": "Tautologies and Contradictions"
+          },
+          {
+            "name": "Logical Equivalence"
+          },
+          {
+            "name": "Normal Forms",
+            "subtopics": [
+              "Disjunctive Normal Form (DNF)",
+              "Conjunctive Normal Form (CNF)"
+            ]
+          },
+          {
+            "name": "Inference Rules",
+            "subtopics": [
+              "Modus Ponens",
+              "Modus Tollens",
+              "Hypothetical Syllogism",
+              "Disjunctive Syllogism"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "T47",
+        "name": "Predicate Logic",
+        "subtopics": [
+          {
+            "name": "Predicates"
+          },
+          {
+            "name": "Quantifiers",
+            "subtopics": [
+              "Universal Quantifier",
+              "Existential Quantifier"
+            ]
+          },
+          {
+            "name": "Logical Connectives in Predicate Logic"
+          },
+          {
+            "name": "Rules of Inference in Predicate Logic"
+          },
+          {
+            "name": "Quantifier Negation"
+          }
+        ]
+      },
+      {
+        "id": "T48",
+        "name": "Proof Techniques",
+        "subtopics": [
+          {
+            "id": "T48a",
+            "name": "Direct Proof"
+          },
+          {
+            "id": "T48b",
+            "name": "Proof by Contradiction"
+          },
+          {
+            "id": "T48c",
+            "name": "Proof by Induction",
+            "subtopics": [
+              "Base Case",
+              "Inductive Step"
+            ]
+          },
+          {
+            "id": "T48d",
+            "name": "Proof by Exhaustion"
+          }
+        ]
+      },
+      {
+        "id": "T49",
+        "name": "Open Statements/Quantifiers"
+      },
+      {
+        "id": "T50",
+        "name": "Pigeon-Hole Principle"
+      },
+      {
+        "id": "T51",
+        "name": "First & Second Order Recurrence Relations",
+        "subtopics": [
+          {
+            "name": "First-Order Recurrence Relations"
+          },
+          {
+            "name": "Second-Order Recurrence Relations"
+          }
+        ]
+      }
+    ]
+  },
+  "Module 6": {
+    "name": "Graph Theory",
+    "topics": [
+      {
+        "id": "T52",
+        "name": "Trees",
+        "subtopics": [
+          {
+            "id": "T52a",
+            "name": "Tree Terminologies",
+            "subtopics": [
+              "Root Node",
+              "Child Node",
+              "Parent Node",
+              "Leaf Node",
+              "Sibling Node"
+            ]
+          },
+          {
+            "id": "T52b",
+            "name": "Binary Tree, Full Binary Tree"
+          },
+          {
+            "id": "T52c",
+            "name": "Tree Traversals",
+            "subtopics": [
+              "Inorder Traversal",
+              "Preorder Traversal",
+              "Postorder Traversal"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "T53",
+        "name": "Graph Terminologies",
+        "subtopics": [
+          "Vertex",
+          "Edge",
+          "Path",
+          "Loop",
+          "Indegree",
+          "Outdegree"
+        ]
+      },
+      {
+        "id": "T54",
+        "name": "Graph Types",
+        "subtopics": [
+          {
+            "id": "T54a",
+            "name": "Undirected Graphs"
+          },
+          {
+            "id": "T54b",
+            "name": "Directed Graphs"
+          },
+          {
+            "id": "T54c",
+            "name": "Weighted Graphs"
+          },
+          {
+            "id": "T54d",
+            "name": "Bipartite Graphs"
+          }
+        ]
+      },
+      {
+        "id": "T55",
+        "name": "Graph Traversals",
+        "subtopics": [
+          {
+            "id": "T55a",
+            "name": "Depth First Traversal"
+          },
+          {
+            "id": "T55b",
+            "name": "Breadth First Traversal"
+          }
+        ]
+      },
+      {
+        "id": "T56",
+        "name": "Graph Coloring"
+      },
+      {
+        "id": "T57",
+        "name": "Eulerian and Hamiltonian Graphs"
+      },
+      {
+        "id": "T58",
+        "name": "Network Flows"
+      },
+      {
+        "id": "T59",
+        "name": "Prefix Trees and Huffman Codes"
+      }
+    ]
+  },
+  "Module 7": {
+    "name": "Algorithms",
+    "topics": [
+      {
+        "id": "T60",
+        "name": "Classification of Algorithms"
+      },
+      {
+        "id": "T61",
+        "name": "Sorting Algorithms",
+        "subtopics": [
+          {
+            "id": "T61a",
+            "name": "Bubble Sort"
+          },
+          {
+            "id": "T61b",
+            "name": "Insertion Sort"
+          },
+          {
+            "id": "T61c",
+            "name": "Selection Sort"
+          },
+          {
+            "id": "T61d",
+            "name": "Merge Sort"
+          },
+          {
+            "id": "T61e",
+            "name": "Quick Sort"
+          },
+          {
+            "id": "T61f",
+            "name": "Radix Sort"
+          }
+        ]
+      },
+      {
+        "id": "T62",
+        "name": "Dynamic Programming"
+      },
+      {
+        "id": "T63",
+        "name": "Greedy Algorithms"
+      },
+      {
+        "id": "T64",
+        "name": "Graph Algorithms"
+      }
+    ]
+  },
+  "Module 8": {
+    "name": "Cryptography",
+    "topics": [
+      {
+        "id": "T65",
+        "name": "Origins of Cryptography"
+      },
+      {
+        "id": "T66",
+        "name": "Encryption & Decryption"
+      },
+      {
+        "id": "T67",
+        "name": "Symmetric Key Cryptography",
+        "subtopics": [
+          {
+            "id": "T67a",
+            "name": "DES Algorithm"
+          },
+          {
+            "id": "T67b",
+            "name": "AES Algorithm"
+          },
+          {
+            "id": "T67c",
+            "name": "Block Ciphers"
+          },
+          {
+            "id": "T67d",
+            "name": "Stream Ciphers"
+          }
+        ]
+      },
+      {
+        "id": "T68",
+        "name": "Asymmetric Key Cryptography",
+        "subtopics": [
+          {
+            "id": "T68a",
+            "name": "RSA Algorithm"
+          },
+          {
+            "id": "T68b",
+            "name": "Diffie-Hellman Key Exchange"
+          },
+          {
+            "id": "T68c",
+            "name": "Elliptic Curve Cryptography"
+          },
+          {
+            "id": "T68d",
+            "name": "Public Key Algorithms"
+          }
+        ]
+      },
+      {
+        "id": "T69",
+        "name": "Prime Generation Algorithms"
+      },
+      {
+        "id": "T70",
+        "name": "Symmetric Key Algorithms"
+      },
+      {
+        "id": "T71",
+        "name": "Asymmetric Key Algorithms"
+      },
+      {
+        "id": "T72",
+        "name": "Hashing Algorithms"
+      },
+      {
+        "id": "T73",
+        "name": "Elliptic Curve Cryptography"
+      },
+      {
+        "id": "T74",
+        "name": "Public Key Infrastructure"
+      },
+      {
+        "id": "T75",
+        "name": "Digital Signatures"
+      }
+    ]
+  }
+}

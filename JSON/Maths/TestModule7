@@ -1,0 +1,58 @@
+{
+  "Module 7": {
+    "name": "Algorithms",
+    "topics": [
+      {
+        "id": "T60",
+        "name": "Classification of Algorithms",
+        "grade": 12
+      },
+      {
+        "id": "T61",
+        "name": "Sorting Algorithms",
+        "grade": 12,
+        "subtopics": [
+          {
+            "id": "T61a",
+            "name": "Bubble Sort"
+          },
+          {
+            "id": "T61b",
+            "name": "Insertion Sort"
+          },
+          {
+            "id": "T61c",
+            "name": "Selection Sort"
+          },
+          {
+            "id": "T61d",
+            "name": "Merge Sort"
+          },
+          {
+            "id": "T61e",
+            "name": "Quick Sort"
+          },
+          {
+            "id": "T61f",
+            "name": "Radix Sort"
+          }
+        ]
+      },
+      {
+        "id": "T62",
+        "name": "Dynamic Programming",
+        "grade": 12
+      },
+      {
+        "id": "T63",
+        "name": "Greedy Algorithms",
+        "grade": 12
+      },
+      {
+        "id": "T64",
+        "name": "Graph Algorithms",
+        "grade": 12
+      }
+    ]
+  }
+}

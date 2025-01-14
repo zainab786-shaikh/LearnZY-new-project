@@ -1,0 +1,122 @@
+{
+  "Module 5": {
+    "name": "Mathematical Logic",
+    "topics": [
+      {
+        "id": "T46",
+        "name": "Propositional Logic",
+        "subtopics": [
+          {
+            "name": "Propositions"
+          },
+          {
+            "name": "Logical Connectives",
+            "subtopics": [
+              "AND",
+              "OR",
+              "NOT",
+              "IMPLIES",
+              "IF and ONLY IF"
+            ]
+          },
+          {
+            "name": "Truth Tables"
+          },
+          {
+            "name": "Tautologies and Contradictions"
+          },
+          {
+            "name": "Logical Equivalence"
+          },
+          {
+            "name": "Normal Forms",
+            "subtopics": [
+              "Disjunctive Normal Form (DNF)",
+              "Conjunctive Normal Form (CNF)"
+            ]
+          },
+          {
+            "name": "Inference Rules",
+            "subtopics": [
+              "Modus Ponens",
+              "Modus Tollens",
+              "Hypothetical Syllogism",
+              "Disjunctive Syllogism"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "T47",
+        "name": "Predicate Logic",
+        "subtopics": [
+          {
+            "name": "Predicates"
+          },
+          {
+            "name": "Quantifiers",
+            "subtopics": [
+              "Universal Quantifier",
+              "Existential Quantifier"
+            ]
+          },
+          {
+            "name": "Logical Connectives in Predicate Logic"
+          },
+          {
+            "name": "Rules of Inference in Predicate Logic"
+          },
+          {
+            "name": "Quantifier Negation"
+          }
+        ]
+      },
+      {
+        "id": "T48",
+        "name": "Proof Techniques",
+        "subtopics": [
+          {
+            "id": "T48a",
+            "name": "Direct Proof"
+          },
+          {
+            "id": "T48b",
+            "name": "Proof by Contradiction"
+          },
+          {
+            "id": "T48c",
+            "name": "Proof by Induction",
+            "subtopics": [
+              "Base Case",
+              "Inductive Step"
+            ]
+          },
+          {
+            "id": "T48d",
+            "name": "Proof by Exhaustion"
+          }
+        ]
+      },
+      {
+        "id": "T49",
+        "name": "Open Statements/Quantifiers"
+      },
+      {
+        "id": "T50",
+        "name": "Pigeon-Hole Principle"
+      },
+      {
+        "id": "T51",
+        "name": "First & Second Order Recurrence Relations",
+        "subtopics": [
+          {
+            "name": "First-Order Recurrence Relations"
+          },
+          {
+            "name": "Second-Order Recurrence Relations"
+          }
+        ]
+      }
+    ]
+  }
+}

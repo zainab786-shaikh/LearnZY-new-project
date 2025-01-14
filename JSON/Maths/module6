@@ -1,0 +1,101 @@
+{
+  "Module 6": {
+    "name": "Graph Theory",
+    "topics": [
+      {
+        "id": "T52",
+        "name": "Trees",
+        "subtopics": [
+          {
+            "id": "T52a",
+            "name": "Tree Terminologies",
+            "subtopics": [
+              "Root Node",
+              "Child Node",
+              "Parent Node",
+              "Leaf Node",
+              "Sibling Node"
+            ]
+          },
+          {
+            "id": "T52b",
+            "name": "Binary Tree, Full Binary Tree"
+          },
+          {
+            "id": "T52c",
+            "name": "Tree Traversals",
+            "subtopics": [
+              "Inorder Traversal",
+              "Preorder Traversal",
+              "Postorder Traversal"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "T53",
+        "name": "Graph Terminologies",
+        "subtopics": [
+          "Vertex",
+          "Edge",
+          "Path",
+          "Loop",
+          "Indegree",
+          "Outdegree"
+        ]
+      },
+      {
+        "id": "T54",
+        "name": "Graph Types",
+        "subtopics": [
+          {
+            "id": "T54a",
+            "name": "Undirected Graphs"
+          },
+          {
+            "id": "T54b",
+            "name": "Directed Graphs"
+          },
+          {
+            "id": "T54c",
+            "name": "Weighted Graphs"
+          },
+          {
+            "id": "T54d",
+            "name": "Bipartite Graphs"
+          }
+        ]
+      },
+      {
+        "id": "T55",
+        "name": "Graph Traversals",
+        "subtopics": [
+          {
+            "id": "T55a",
+            "name": "Depth First Traversal"
+          },
+          {
+            "id": "T55b",
+            "name": "Breadth First Traversal"
+          }
+        ]
+      },
+      {
+        "id": "T56",
+        "name": "Graph Coloring"
+      },
+      {
+        "id": "T57",
+        "name": "Eulerian and Hamiltonian Graphs"
+      },
+      {
+        "id": "T58",
+        "name": "Network Flows"
+      },
+      {
+        "id": "T59",
+        "name": "Prefix Trees and Huffman Codes"
+      }
+    ]
+  }
+}

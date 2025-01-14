@@ -1,0 +1,98 @@
+{
+  "Module 8": {
+    "name": "Cryptography",
+    "topics": [
+      {
+        "id": "T65",
+        "name": "Origins of Cryptography",
+        "grade": 12
+      },
+      {
+        "id": "T66",
+        "name": "Encryption & Decryption",
+        "grade": 12
+      },
+      {
+        "id": "T67",
+        "name": "Symmetric Key Cryptography",
+        "grade": 12,
+        "subtopics": [
+          {
+            "id": "T67a",
+            "name": "DES Algorithm"
+          },
+          {
+            "id": "T67b",
+            "name": "AES Algorithm"
+          },
+          {
+            "id": "T67c",
+            "name": "Block Ciphers"
+          },
+          {
+            "id": "T67d",
+            "name": "Stream Ciphers"
+          }
+        ]
+      },
+      {
+        "id": "T68",
+        "name": "Asymmetric Key Cryptography",
+        "grade": 12,
+        "subtopics": [
+          {
+            "id": "T68a",
+            "name": "RSA Algorithm"
+          },
+          {
+            "id": "T68b",
+            "name": "Diffie-Hellman Key Exchange"
+          },
+          {
+            "id": "T68c",
+            "name": "Elliptic Curve Cryptography"
+          },
+          {
+            "id": "T68d",
+            "name": "Public Key Algorithms"
+          }
+        ]
+      },
+      {
+        "id": "T69",
+        "name": "Prime Generation Algorithms",
+        "grade": 12
+      },
+      {
+        "id": "T70",
+        "name": "Symmetric Key Algorithms",
+        "grade": 12
+      },
+      {
+        "id": "T71",
+        "name": "Asymmetric Key Algorithms",
+        "grade": 12
+      },
+      {
+        "id": "T72",
+        "name": "Hashing Algorithms",
+        "grade": 12
+      },
+      {
+        "id": "T73",
+        "name": "Elliptic Curve Cryptography",
+        "grade": 12
+      },
+      {
+        "id": "T74",
+        "name": "Public Key Infrastructure",
+        "grade": 12
+      },
+      {
+        "id": "T75",
+        "name": "Digital Signatures",
+        "grade": 12
+      }
+    ]
+  }
+}

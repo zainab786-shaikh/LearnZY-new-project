@@ -1,0 +1,173 @@
+{
+  "Module 2": {
+    "name": "Pre-Calculus",
+    "topics": [
+      {
+        "id": "T12",
+        "name": "Arithmetic Progressions",
+        "grade": 10
+      },
+      {
+        "id": "T13",
+        "name": "Geometric Progressions",
+        "grade": 10
+      },
+      {
+        "id": "T14",
+        "name": "Logarithms",
+        "grade": 11,
+        "subtopics": [
+          {
+            "name": "Properties of Logarithms"
+          },
+          {
+            "name": "Change of Base Formula"
+          },
+          {
+            "name": "Applications of Logarithms",
+            "subtopics": [
+              "Logarithmic Scales",
+              "Decibel Scale"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "T15",
+        "name": "Coordinate Geometry - 2D",
+        "grade": 10,
+        "subtopics": [
+          {
+            "name": "Distance Formula"
+          },
+          {
+            "name": "Midpoint Formula"
+          },
+          {
+            "name": "Equation of a Line",
+            "subtopics": [
+              "Point-Slope Form",
+              "Slope-Intercept Form"
+            ]
+          },
+          {
+            "name": "Angle Between Two Lines"
+          },
+          {
+            "name": "Conic Sections",
+            "subtopics": [
+              "Parabolas",
+              "Ellipses",
+              "Hyperbolas"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "T16",
+        "name": "Statistics",
+        "grade": 11
+      },
+      {
+        "id": "T17",
+        "name": "Central Tendency",
+        "grade": 10,
+        "subtopics": [
+          "Mean",
+          "Median",
+          "Mode"
+        ]
+      },
+      {
+        "id": "T18",
+        "name": "Correlation and Regression",
+        "grade": 11,
+        "subtopics": [
+          "Karl Pearson’s Coefficient"
+        ]
+      },
+      {
+        "id": "T19",
+        "name": "Permutations, Combinations, and Derangements",
+        "grade": 11
+      },
+      {
+        "id": "T20",
+        "name": "Binomial Theorem",
+        "grade": 11
+      },
+      {
+        "id": "T21",
+        "name": "3D Geometry",
+        "grade": 12
+      },
+      {
+        "id": "T22",
+        "name": "Vectors",
+        "grade": 12
+      },
+      {
+        "id": "T23",
+        "name": "Linear Programming",
+        "grade": 12
+      },
+      {
+        "id": "T24",
+        "name": "Probability",
+        "grade": 10
+      },
+      {
+        "id": "T25",
+        "name": "Trigonometry",
+        "grade": 10,
+        "subtopics": [
+          {
+            "name": "Trigonometric Ratios of Right-Angled Triangle"
+          },
+          {
+            "name": "Basic Trigonometric Values",
+            "subtopics": [
+              "0°",
+              "30°",
+              "45°",
+              "60°",
+              "90°"
+            ]
+          },
+          {
+            "name": "Unit Circle"
+          },
+          {
+            "name": "Graphs of Trigonometric Functions"
+          },
+          {
+            "name": "Inverse Trigonometry"
+          },
+          {
+            "name": "Trigonometric Identities",
+            "subtopics": [
+              "Pythagorean Identity",
+              "Angle Sum Identity",
+              "Double Angle Identity"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "T26",
+        "name": "Sequences and Series",
+        "grade": 11
+      },
+      {
+        "id": "T27",
+        "name": "Binomial Expansion",
+        "grade": 11
+      },
+      {
+        "id": "T28",
+        "name": "Conic Sections",
+        "grade": 12
+      }
+    ]
+  }
+}

@@ -1,0 +1,389 @@
+<html class="light text-[16px]">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@400" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com/"></script>
+    <script>
+        window.FontAwesomeConfig = {
+            autoReplaceSvg: 'nest', // Options: 'nest', 'remove', 'replace'
+        };
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js" crossorigin="anonymous"
+        referrerpolicy="no-referrer"></script>
+    <style>
+        * {
+            font-family: "Inter", sans-serif;
+        }
+
+        ::-webkit-scrollbar {
+            display: none;
+        }
+    </style>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: "#ecfeff",
+                            100: "#cffafe",
+                            200: "#a5f3fc",
+                            300: "#67e8f9",
+                            400: "#22d3ee",
+                            500: "#06b6d4",
+                            600: "#0891b2",
+                            700: "#0e7490",
+                            800: "#155e75",
+                            900: "#164e63",
+                            950: "#083344",
+                        },
+                    },
+                },
+                borderRadius: {
+                    sm: "0.125rem",
+                    DEFAULT: "0.125rem",
+                    md: "0.125rem",
+                    lg: "0.125rem",
+                    xl: "0.125rem",
+                    '2xl': "0.125rem",
+                    '3xl': "0.125rem",
+                    full: "0.125rem",
+                },
+            },
+            darkMode: "class",
+        };
+    </script>
+</head>
+
+<body class="bg-gray-50 dark:bg-gray-900 overflow-x-hidden">
+    <div class="antialiased bg-gray-50 dark:bg-gray-900">
+        <nav
+            class="bg-white border-b border-gray-200 px-4 py-2.5 dark:bg-gray-800 dark:border-gray-700 fixed left-0 right-0 top-0 z-50">
+            <div class="flex flex-wrap justify-between items-center">
+                <div class="flex justify-start items-center">
+                    <button id="toggleSidebar" aria-expanded="true" aria-controls="sidebar"
+                        class="hidden p-2 mr-3 text-gray-600 rounded cursor-pointer lg:inline hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-700">
+                        <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 16 12">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1 1h14M1 6h14M1 11h7"></path>
+                        </svg>
+                    </button>
+                    <button aria-expanded="true" aria-controls="sidebar"
+                        class="p-2 mr-2 text-gray-600 rounded-lg cursor-pointer lg:hidden hover:text-gray-900 hover:bg-gray-100 focus:bg-gray-100 dark:focus:bg-gray-700 focus:ring-2 focus:ring-gray-100 dark:focus:ring-gray-700 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
+                        <svg class="w-[18px] h-[18px]" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 17 14">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M1 1h15M1 7h15M1 13h15"></path>
+                        </svg>
+                        <span class="sr-only">Toggle sidebar</span>
+                    </button>
+                    <a class="flex mr-4 cursor-pointer">
+                        <span
+                            class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">LearnZy</span>
+                    </a>
+
+
+                    
+
+
+                </div>
+
+                <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+                    <ul
+                        class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 dark:border-gray-700">
+
+                        <li>
+                            <a class="cursor-pointer block py-2 px-3 text-white bg-primary-700 rounded md:bg-transparent md:text-gray-900 md:p-0 dark:text-white md:dark:text-white"
+                                aria-current="page">Home</a>
+                        </li>
+
+                        <li>
+                            <a class="cursor-pointer block py-2 px-3 text-white bg-primary-700 rounded md:bg-transparent md:text-gray-900 md:p-0 dark:text-white md:dark:text-white"
+                                aria-current="page">About</a>
+                        </li>
+
+                        <li>
+                            <a class="cursor-pointer block py-2 px-3 text-white bg-primary-700 rounded md:bg-transparent md:text-gray-900 md:p-0 dark:text-white md:dark:text-white"
+                                aria-current="page">Features</a>
+                        </li>
+
+                        <li>
+                            <a class="cursor-pointer block py-2 px-3 text-white bg-primary-700 rounded md:bg-transparent md:text-gray-900 md:p-0 dark:text-white md:dark:text-white"
+                                aria-current="page">Contact</a>
+                        </li>
+
+                        <li>
+                            <a class="cursor-pointer block py-2 px-3 text-white bg-primary-700 rounded md:bg-transparent md:text-gray-900 md:p-0 dark:text-white md:dark:text-white"
+                                aria-current="page" href="signup.html">Login/Signup</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="flex items-center lg:order-2">
+
+
+
+                    <button id="toggleSidebarMobileSearch" type="button"
+                        class="p-2 text-gray-500 rounded-lg lg:hidden hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">
+                        <span class="sr-only">Search</span>
+                        <!-- Search icon -->
+                        <svg class="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none"
+                            viewBox="0 0 20 20">
+                            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"></path>
+                        </svg>
+                    </button>
+
+
+
+
+
+                    <button type="button"
+                        class="flex mx-3 text-sm bg-gray-800 rounded-full md:mr-0 focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600"
+                        id="user-menu-button" aria-expanded="false" data-dropdown-toggle="dropdown">
+                        <span class="sr-only">Open user menu</span>
+                        <img class="w-8 h-8 rounded-full"
+                            src="https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-4.jpg"
+                            alt="Img">
+                    </button>
+
+
+                </div>
+            </div>
+        </nav>
+        <main class="max-w-screen-xl p-4 mx-auto h-auto pt-20 space-y-8">
+            <section class="bg-gray-50 dark:bg-gray-900 py-10 overflow-hidden m-5 lg:m-0 2xl:py-16 xl:py-8">
+                <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+                    <div class="grid grid-cols-1 gap-14 items-center lg:grid-cols-12 lg:gap32">
+                        <div class="w-full xl:col-span-5 lg:col-span-6">
+                            <div
+                                class="text-sm text-gray-900 bg-gray-100 dark:bg-gray-800 hover:bg-gray-200 dark:hover:bg-gray-700 rounded-full pl-1 pr-2.5 py-1 inline-flex items-center justify-between mb-6 transition-colors ease-in-out">
+                                <span class="bg-primary-600 px-3 py-1 rounded-full text-white mr-3">#1</span>
+                                <span class="dark:text-white">undefined</span>
+                            </div>
+
+                            <h1 class="text-4xl text-gray-900 dark:text-white lg:text-6xl font-bold mb-6">
+                                AI-Powered Tutoring for Students
+                            </h1>
+                            <p class="lg:text-xl mb-8 text-gray-500 dark:text-gray-400 text-left">
+                                LearnZy - Empowering Students Through AI-Based Tutoring
+                            </p>
+
+                            <form action="signup.html" class="w-full">
+                                <div class="flex relative gap-3 mb-8 lg:w-full">
+                                    
+                                    <div>
+                                        <button type="submit"
+                                            class="flex justify-center py-2 px-4 rounded-md text-sm font-medium text-white bg-primary-600 hover:bg-primary-500 cursor-pointer transition-colors ease-in-out absolute items-center gap-2 top-1.5 right-5"
+                                            id="submit">
+                                            Start Learning
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+                            
+                        </div>
+                        <div class="w-full xl:col-span-7 lg:col-span-6 block">
+                            <div class="w-full sm:w-auto lg:w-[60.8125rem] xl:ml-16">
+                                <img src="https://storage.googleapis.com/uxpilot-auth.appspot.com/default-placeholder.png"
+                                    alt="Img" class="w-full h-auto">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+            <section class="dark:bg-gray-900">
+                <div class="py-8 mx-auto max-w-screen-xl sm:py-16 lg:px-6">
+                    <div class="max-w-screen-md mb-8 lg:mb-16">
+                        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Features
+                            Section</h2>
+                        <p class="text-gray-500 sm:text-xl dark:text-gray-400">Explore the key features of LearnZy that
+                            make it stand out as an AI-based tutoring platform.</p>
+                    </div>
+                    <div class="space-y-8 md:grid md:grid-cols-2 lg:grid-cols-3 md:gap-12 md:space-y-0">
+
+
+                        <div>
+                            <div
+                                class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                                <svg class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300"
+                                    fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 0l-2 2a1 1 0 101.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                            <h3 class="mb-2 text-xl font-bold dark:text-white">Personalized Learning</h3>
+                            <p class="text-gray-500 dark:text-gray-400">Get customized lesson plans tailored to your
+                                learning pace and style.</p>
+                        </div>
+
+                        <div>
+                            <div
+                                class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                                <svg class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300"
+                                    fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 0l-2 2a1 1 0 101.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                            <h3 class="mb-2 text-xl font-bold dark:text-white">Real-Time Feedback</h3>
+                            <p class="text-gray-500 dark:text-gray-400">Receive instant feedback on your progress and
+                                performance to improve learning outcomes.</p>
+                        </div>
+
+                        <div>
+                            <div
+                                class="flex justify-center items-center mb-4 w-10 h-10 rounded-full bg-primary-100 lg:h-12 lg:w-12 dark:bg-primary-900">
+                                <svg class="w-5 h-5 text-primary-600 lg:w-6 lg:h-6 dark:text-primary-300"
+                                    fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 0l-2 2a1 1 0 101.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414 0l4-4z"
+                                        clip-rule="evenodd"></path>
+                                </svg>
+                            </div>
+                            <h3 class="mb-2 text-xl font-bold dark:text-white">Affordable Education</h3>
+                            <p class="text-gray-500 dark:text-gray-400">Access high-quality educational resources at an
+                                affordable price point.</p>
+                        </div>
+
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- <section class="bg-white dark:bg-gray-900"> -->
+            <section>
+                <div
+                    class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
+                    <div class="font-light" text-gray-500="" sm:text-lg="" dark:text-gray-400="" order-first="">
+                        <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+                            About Section
+                        </h2>
+                        <p class="mb-4 dark:text-gray-400 font-light">
+                            LearnZy is dedicated to revolutionizing education through AI technology. Our mission is to
+                            provide personalized and effective tutoring to students worldwide, making education
+                            accessible and engaging for all.
+                        </p>
+                    </div>
+                    <div class="order-last">
+                        <img class="w-full rounded-lg"
+                            src="https://storage.googleapis.com/uxpilot-auth.appspot.com/default-placeholder.png"
+                            alt="Img">
+                    </div>
+                </div>
+            </section>
+
+            <section class="bg-gray-50 dark:bg-gray-900 py-6 sm:py-8 lg:py-20">
+                <div class="mx-auto max-w-screen-xl px-4 md:px-8">
+                    <h2 class="mb-8 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white text-center">
+                        What others say about us
+                    </h2>
+
+                    <div class="grid gap-y-10 sm:grid-cols-2 sm:gap-y-12 lg:grid-cols-3">
+
+
+
+                        <div class="flex flex-col items-center gap-4 sm:px-4 md:gap-6 lg:px-8">
+                            <div class="text-center text-gray-500 dark:text-gray-400">
+                                “I have seen a significant improvement in my grades since using LearnZy. The
+                                personalized learning approach is truly effective.”
+                            </div>
+
+                            <div class="flex flex-col items-center gap-2 sm:flex-row md:gap-3">
+                                <div
+                                    class="h-12 w-12 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-14 md:w-14">
+                                    <img src="https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-1.jpg"
+                                        loading="lazy" alt="Img" class="h-full w-full object-cover object-center">
+                                </div>
+
+                                <div>
+                                    <div
+                                        class="text-center text-sm font-bold text-primary-600 dark:text-primary-500 sm:text-left md:text-base">
+                                        John Doe
+                                    </div>
+                                    <p
+                                        class="text-center text-sm text-gray-500 dark:text-gray-400 sm:text-left md:text-sm">
+                                        Student
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="flex flex-col items-center gap-4 sm:px-4 md:gap-6 lg:px-8">
+                            <div class="text-center text-gray-500 dark:text-gray-400">
+                                “My child loves LearnZy! The real-time feedback feature has made learning more engaging
+                                and interactive.”
+                            </div>
+
+                            <div class="flex flex-col items-center gap-2 sm:flex-row md:gap-3">
+                                <div
+                                    class="h-12 w-12 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-14 md:w-14">
+                                    <img src="https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-8.jpg"
+                                        loading="lazy" alt="Img" class="h-full w-full object-cover object-center">
+                                </div>
+
+                                <div>
+                                    <div
+                                        class="text-center text-sm font-bold text-primary-600 dark:text-primary-500 sm:text-left md:text-base">
+                                        Jane Smith
+                                    </div>
+                                    <p
+                                        class="text-center text-sm text-gray-500 dark:text-gray-400 sm:text-left md:text-sm">
+                                        Parent
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="flex flex-col items-center gap-4 sm:px-4 md:gap-6 lg:px-8">
+                            <div class="text-center text-gray-500 dark:text-gray-400">
+                                “LearnZy provides affordable education without compromising on quality. It's a
+                                game-changer for students.”
+                            </div>
+
+                            <div class="flex flex-col items-center gap-2 sm:flex-row md:gap-3">
+                                <div
+                                    class="h-12 w-12 overflow-hidden rounded-full bg-gray-100 shadow-lg md:h-14 md:w-14">
+                                    <img src="https://storage.googleapis.com/uxpilot-auth.appspot.com/avatars/avatar-6.jpg"
+                                        loading="lazy" alt="Img" class="h-full w-full object-cover object-center">
+                                </div>
+
+                                <div>
+                                    <div
+                                        class="text-center text-sm font-bold text-primary-600 dark:text-primary-500 sm:text-left md:text-base">
+                                        Evelyn Ramirez
+                                    </div>
+                                    <p
+                                        class="text-center text-sm text-gray-500 dark:text-gray-400 sm:text-left md:text-sm">
+                                        Educator
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+</body>
+
+</html>

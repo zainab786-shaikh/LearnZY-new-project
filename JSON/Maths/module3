@@ -1,0 +1,107 @@
+{
+  "Module 3": {
+    "name": "Calculus",
+    "topics": [
+      {
+        "id": "T29",
+        "name": "Limits and Continuity"
+      },
+      {
+        "id": "T30",
+        "name": "Differentiation",
+        "subtopics": [
+          {
+            "name": "Product Rule"
+          },
+          {
+            "name": "Quotient Rule"
+          },
+          {
+            "name": "Chain Rule"
+          },
+          {
+            "name": "Implicit Differentiation"
+          },
+          {
+            "name": "Derivatives of Standard Functions",
+            "subtopics": [
+              "Power Rule",
+              "Sum and Difference Rule",
+              "Trigonometric Functions",
+              "Exponential Functions",
+              "Logarithmic Functions"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "T31",
+        "name": "Integration",
+        "subtopics": [
+          {
+            "name": "Indefinite Integrals",
+            "subtopics": [
+              "Basic Integration Rules",
+              "Integration of Power Functions",
+              "Integration of Exponentials",
+              "Integration of Trigonometric Functions",
+              "Integration of Logarithmic Functions"
+            ]
+          },
+          {
+            "name": "Definite Integrals",
+            "subtopics": [
+              "Properties of Definite Integrals",
+              "Fundamental Theorem of Calculus"
+            ]
+          },
+          {
+            "name": "Integration by Parts"
+          },
+          {
+            "name": "Substitution Rule"
+          },
+          {
+            "name": "Partial Fractions"
+          }
+        ]
+      },
+      {
+        "id": "T32",
+        "name": "Linear Differential Equations"
+      },
+      {
+        "id": "T33",
+        "name": "Higher Order Differential Equations"
+      },
+      {
+        "id": "T34",
+        "name": "Partial Differentiation",
+        "subtopics": [
+          {
+            "name": "Higher Order Partial Derivatives"
+          },
+          {
+            "name": "Gradient and Directional Derivatives"
+          }
+        ]
+      },
+      {
+        "id": "T35",
+        "name": "Leibniz nth Derivative Formula"
+      },
+      {
+        "id": "T36",
+        "name": "Applications of Derivatives"
+      },
+      {
+        "id": "T37",
+        "name": "Multiple Integrals"
+      },
+      {
+        "id": "T38",
+        "name": "Parametric Equations"
+      }
+    ]
+  }
+}

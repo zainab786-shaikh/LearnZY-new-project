@@ -1,0 +1,87 @@
+{
+  "Module 8": {
+    "name": "Cryptography",
+    "topics": [
+      {
+        "id": "T65",
+        "name": "Origins of Cryptography"
+      },
+      {
+        "id": "T66",
+        "name": "Encryption & Decryption"
+      },
+      {
+        "id": "T67",
+        "name": "Symmetric Key Cryptography",
+        "subtopics": [
+          {
+            "id": "T67a",
+            "name": "DES Algorithm"
+          },
+          {
+            "id": "T67b",
+            "name": "AES Algorithm"
+          },
+          {
+            "id": "T67c",
+            "name": "Block Ciphers"
+          },
+          {
+            "id": "T67d",
+            "name": "Stream Ciphers"
+          }
+        ]
+      },
+      {
+        "id": "T68",
+        "name": "Asymmetric Key Cryptography",
+        "subtopics": [
+          {
+            "id": "T68a",
+            "name": "RSA Algorithm"
+          },
+          {
+            "id": "T68b",
+            "name": "Diffie-Hellman Key Exchange"
+          },
+          {
+            "id": "T68c",
+            "name": "Elliptic Curve Cryptography"
+          },
+          {
+            "id": "T68d",
+            "name": "Public Key Algorithms"
+          }
+        ]
+      },
+      {
+        "id": "T69",
+        "name": "Prime Generation Algorithms"
+      },
+      {
+        "id": "T70",
+        "name": "Symmetric Key Algorithms"
+      },
+      {
+        "id": "T71",
+        "name": "Asymmetric Key Algorithms"
+      },
+      {
+        "id": "T72",
+        "name": "Hashing Algorithms"
+      },
+      {
+        "id": "T73",
+        "name": "Elliptic Curve Cryptography"
+      },
+      {
+        "id": "T74",
+        "name": "Public Key Infrastructure"
+      },
+      {
+        "id": "T75",
+        "name": "Digital Signatures"
+      }
+    ]
+  }
+}
